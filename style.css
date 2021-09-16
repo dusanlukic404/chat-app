@@ -31,6 +31,18 @@ main {
   overflow: hidden;
 }
 
+/* Selection pseudo-element */
+
+.intro__heading::selection{
+  background-image: linear-gradient(to left, hsl(293, 100%, 63%), hsl(264, 100%, 61%));  
+  color: #fff;
+} 
+
+.intro__p::selection{
+  background-image: linear-gradient(to left, hsl(293, 100%, 63%), hsl(264, 100%, 61%));  
+  color: #fff;
+} 
+
 /* Decorative elements */
 
 main::before,

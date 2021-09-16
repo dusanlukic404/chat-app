@@ -34,13 +34,13 @@ main {
 /* Selection pseudo-element */
 
 .intro__heading::selection{
-  background-image: linear-gradient(to left, hsl(293, 100%, 63%), hsl(264, 100%, 61%));  
-  color: #fff;
+  background-color: hsl(289, 100%, 72%); 
+  color: hsl(270, 20%, 96%);
 } 
 
 .intro__p::selection{
-  background-image: linear-gradient(to left, hsl(293, 100%, 63%), hsl(264, 100%, 61%));  
-  color: #fff;
+  background-color: hsl(289, 100%, 72%);
+  color: hsl(270, 20%, 96%);
 } 
 
 /* Decorative elements */

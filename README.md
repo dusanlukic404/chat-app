@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [See Solution](https://www.frontendmentor.io/solutions/chat-app-ui-done-with-only-css-no-images-included-A13fzS_IM)
+- Live Site URL: [Live Site](https://dog-walkers-booking.netlify.app/)
 
 ### Built with
 

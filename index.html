@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Dusan Lukic">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Chat App</title>
+
+</head>
+<body>
+
+  <main>
+    <div class="big-container">
+      <div class="mobile">
+        <div class="walker">
+          <div class="walker__flex">
+            <img class="walker__img" src="./images/avatar.jpg" alt="Samuel Green">
+            <div class="walker__name">
+              <h2 class="walker__name--header">Samuel Green</h2>
+              <p class="walker__name--p">Available to Walk</p>
+            </div>
+          </div>
+        </div>
+        <div class="chat">
+            <div class="chat__message chat-left">
+              <p>That sounds great. I'd be happy with that.</p>
+            </div>
+            <div class="chat__message chat-left">
+              <p>Could you send over some pictures of your dog, please?</p>
+            </div>
+            <div class="right-div">
+              <div class="dog-images">
+                <img src="./images/dog-image-1.jpg" alt="our dog smiling">
+                <img src="./images/dog-image-2.jpg" alt="our dog laying on the grass and enjoying his time out">
+                <img src="./images/dog-image-3.jpg" alt="our dog playing with some branch">
+              </div>
+              <div class="chat-right chat-right-bigger">
+                <p>Here are a few pictures. She's a happy girl!</p>
+              </div>
+              <div class="chat-right chat-right-smaller">
+                <p>Can you make it?</p>
+              </div>
+            </div>
+            <div class="chat__message chat-left long">
+              <p>She looks so happy! The time we discussed works. How long shall I take her out for?</p>
+            </div>
+            <div class="cost chat-left first-price">
+              <div class="circle"></div>
+              <p>30 minute walk</p>
+              <h2>$29</h2>
+            </div>
+            <div class="cost chat-left second-price">
+              <div class="circle"></div>
+              <p>1 hour walk</p>
+              <h2>$49</h2>
+            </div>     
+            <div class="input-button">
+              <input class="message-input" type="text" placeholder="Type a message...">
+              <button class="btn"></button>
+            </div>
+        </div>
+      </div>
+      <div class="intro">
+        <div class="intro__heading">
+          <h1>Simple booking</h1>
+        </div>
+        <div class="intro__p">
+          <p>Stay in touch with our dog walkers through the chat interface. This makes it easy to discuss arrangements and make bookings. Once the walk has been completed you can rate your walker and book again all through the chat.
+          </p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+</body>
+</html>

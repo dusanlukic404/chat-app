@@ -118,7 +118,7 @@ main::after {
 
 .intro {
   width: 40%;
-  animation: intro-text 700ms ease-in-out forwards;
+  animation: intro-text 1.3s ease-in-out forwards;
 }
 
 .walker {

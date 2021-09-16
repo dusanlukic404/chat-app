@@ -118,6 +118,7 @@ main::after {
 
 .intro {
   width: 40%;
+  animation: intro-text 500ms ease-in-out forwards;
 }
 
 .walker {
@@ -377,6 +378,17 @@ main::after {
   100% {
     opacity: 1;
     transform: translateX(0) translateY(0) scale(1);
+  }
+}
+
+@keyframes intro-text {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%) scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0) scale(1);
   }
 }
 
